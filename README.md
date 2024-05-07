@@ -35,7 +35,7 @@ Como o site teve inspiração no "Jogo do Tigrinho", achamos que seria interessa
 
 - [X] 4) PHP: Na página PHP, faça a importação do conteúdo do arquivo ‘municipios.csv’ para a tabela T_CIDADES. Observe que é necessário uma consulta SQL “SELECT” para obter o ‘id_estado’ de acordo com a ‘sigla’ em ‘municipios.csv’, antes de inserir a cidade em T_CIDADES.
 
-- [ ] 5) PHP: Na página PHP, crie um formulário que permita pesquisar municípios no banco de dados.
+- [x] 5) PHP: Na página PHP, crie um formulário que permita pesquisar municípios no banco de dados.
 
 - [ ] 6) PHP: Na página PHP, crie um formulário que permita inserir e remover um município no banco de dados com chamada JavaScript assíncrona.
 
