@@ -1,6 +1,6 @@
 Nome do Projeto: Lucky Capybara
 
-Autores: <Thomas Oliveira>, <João Carvalho>, <Sandro Christe> e <André Oliveira>
+Autores: Thomas Oliveira, João Carvalho, Sandro Christe e André Oliveira
 
 Data: <07/05/2024>
 
