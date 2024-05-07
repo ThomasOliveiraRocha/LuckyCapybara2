@@ -1,8 +1,13 @@
-Nome do Projeto:
+Nome do Projeto: Lucky Capybara
+
 Autores: <Thomas Oliveira>, <João Carvalho>, <Sandro Christe> e <André Oliveira>
+
 Data: <07/05/2024>
+
 Link do Repositorio: > https://github.com/ThomasOliveiraRocha/LuckyCapybara2
+
 Endereço publico: > http://168.75.88.169/LuckyCapybara
+
 
 
 # Lucky Capybara
