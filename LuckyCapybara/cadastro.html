@@ -1,0 +1,122 @@
+
+<!--
+  Autores: <Thomas Oliveira>, <João Carvalho>, <Sandro Christe> e <André Oliveira>
+  Data: <30/03/2024>
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="src/style.css" />
+</head>
+
+<header data-bs-theme="dark">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top cabeca">
+      <div class="container-fluid">
+        <a href="index.html" style="text-decoration: none;">
+          <img src="img/larapio.png" width="50" height="50" />
+                  </a>
+        <a class="navbar-brand" href="#">Capivara da Sorte</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+          aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active border border-danger rounded" aria-current="page" href="cacaniquel.html">Caça
+                Níquel</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active border border-danger rounded" aria-current="page" href="blackjack.html">Blackjack
+                / 21</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active border border-danger rounded" aria-current="page" href="roleta.html">Roleta</a>
+            </li>
+          </ul>
+          <form class="d-flex gap-3" role="search">
+            <a class="btn btn-warning px-4" href="cadastro.html" type="button">Cadastrar</a>
+            <a class="btn btn-warning px-4" href="entrar.html" type="button">Entrar</a>
+          </form>
+  
+        </div>
+      </div>
+    </nav>
+  </header>
+  
+
+<body class="text-bg-dark">
+  <br>
+  <br>
+  <br>
+
+    <div id="corpo" style="margin-top: 0px;">
+        <h1 class="texto">Insira seus dados para realizar o cadastro</h1>
+
+        <form action="entrar.html" method="post">
+            <h3 class="texto">Nome: </h3>
+            <input type="text" name="nome" required autofocus />
+            <br>
+            <h3 class="texto">Nome de Usuário: </h3>
+            <input type="text" name="nome_usuario" required autofocus />
+            <br>
+            <h3 class="texto">Idade: </h3>
+            <input type="date" name="idade" required/>
+            <br>
+            <h3 class="texto">Email: </h3>
+            <input type="email" name="email" required/>
+            <br>
+            <h3 class="texto">Senha: </h3>
+            <input id="senhazona" type="password" name="senha" required />
+            <p id="sizesenha">Senha muito curta</p>
+            <br>
+            <h3 class="texto">Confirme a Senha: </h3>
+            <input type="password" name="conf_senha" required />
+            <br>
+            <br>
+            <label for = "sexo"> Selecione o seu sexo:</label>
+            <select id = "sexo" name = "sexo">
+                <option value = "Masculino"> Masculino</option>
+                <option value = "Feminino"> Feminino</option>    
+                <option value = "Outro"> Outro</option>  
+            </select>     
+            <br>
+            <br>
+            <h3 class="texto">Pergunta de Segurança: Digite 2 números e a soma deles</h3>
+            <div>
+                <input type="number" name="Número 1" value="Número 1" id="num1" />
+                <input type="number" name="Número 2" value="Número 2" id="num2" />
+                <input type="number" name="Resultado" value="Resultado" id="res" />
+            </div>
+            <br>
+            <br>
+            <button id="Verificar">Verificar</button>
+            <input type="submit" value="Cadastrar"/>
+        </form>
+    </div>
+
+    <!-- Rodapé -->
+    <div class="container text-bg-dark">
+      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <div class="col-md-4 d-flex align-items-center">
+          <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+            <svg class="bi" width="30" height="24">
+              <use xlink:href="#bootstrap" />
+            </svg>
+          </a>
+          <span class="mb-3 mb-md-0 text-light">&copy; 2024 CapivaraDaSorteOficial, Inc</span>
+        </div>
+
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/decimal.js"></script>
+    <script src="js/perguntaSeg.js"></script>
+
+</body>
+
+</html>

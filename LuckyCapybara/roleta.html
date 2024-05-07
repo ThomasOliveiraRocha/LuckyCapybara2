@@ -1,0 +1,136 @@
+<!--
+  Autores: <Thomas Oliveira>, <João Carvalho>, <Sandro Christe> e <André Oliveira>
+  Data: <30/03/2024>
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport", initial-scale=1.0">
+  <title>Capivara da Sorte</title>
+  <link rel="stylesheet" type="text/css" href="src/style.css" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+</head>
+
+<header data-bs-theme="dark">
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top cabeca">
+    <div class="container-fluid">
+      <a href="index.html" style="text-decoration: none;">
+        <img src="img/larapio.png" width="50" height="50" />
+     </a>
+      <a class="navbar-brand" href="#">Capivara da Sorte</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+        aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active border border-danger rounded" aria-current="page" href="cacaniquel.html">Caça
+              Níquel</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active border border-danger rounded" aria-current="page" href="blackjack.html">Blackjack
+              / 21</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active border border-danger rounded" aria-current="page" href="roleta.html">Roleta</a>
+          </li>
+        </ul>
+        <form class="d-flex gap-3" role="search">
+          <a class="btn btn-warning px-4" href="cadastro.html" type="button">Cadastrar</a>
+          <a class="btn btn-warning px-4" href="entrar.html" type="button">Entrar</a>
+        </form>
+
+      </div>
+    </div>
+  </nav>
+</header>
+
+<body class="text-bg-dark">
+
+  <!-- separar em divs, (Cabeçalho, corpo, rodapé) -->
+  <!-- Cabeçalho -->
+  <!-- Corpo -->
+    <div id="corpo" class="text-bg-dark">
+  
+        <div class="roleta">
+            <div class="wheel spin">
+                <div class="seta">  
+                </div>
+                <img src="img/roletona.png">
+            </div>
+        </div>
+
+        <table class="tabela">
+          <thead>
+            <tr>
+              <th>Nome</th>
+              <th>Idade</th>
+              <th>Sexo</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>João</td>
+              <td>25</td>
+              <td>Masculino</td>
+            </tr>
+            <tr>
+              <td>Sandro</td>
+              <td>37</td>
+              <td>Machoman</td>
+            </tr>
+            <tr>
+              <td>Thomas</td>
+              <td>40</td>
+              <td>Masculino</td>
+            </tr>
+            <tr>
+              <td>André</td>
+              <td>85</td>
+              <td>Masculino</td>
+            </tr>
+          </tbody>
+        </table>
+
+
+        
+        <div id="div2">
+          <ul id="lista1">
+            
+          </ul>
+          <button id="btn3">TODO2: Ordenar</button>
+          <br>
+          <br>
+        </div>
+
+
+
+        <!-- Rodapé -->
+        <div class="container text-bg-dark">
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                <div class="col-md-4 d-flex align-items-center">
+                    <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                        <svg class="bi" width="30" height="24">
+                         <use xlink:href="#bootstrap" />
+                        </svg>
+                    </a>
+                 <span class="mb-3 mb-md-0 text-light">&copy; 2024 CapivaraDaSorteOficial, Inc</span>
+            </footer>
+        </div>
+
+    </div>
+    
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/roleta.js"></script>
+
+</body>
+
+
+
+</html>

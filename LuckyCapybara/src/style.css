@@ -1,0 +1,218 @@
+/*
+  Autores: <Thomas Oliveira>, <João Carvalho>, <Sandro Christe> e <André Oliveira>
+  Data: <30/03/2024>
+*/
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+@import url('https://fonts.googleapis.com/css2?family=Kalam');
+
+a[href *= "github"]{
+	color: seashell;
+}
+
+a[href *= "instagram"]{
+	color: rgb(255, 56, 122);
+}
+
+a[href *= "linkedin"]{
+	color: skyblue;
+}
+
+.texto{
+    color: black;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 18px;
+    vertical-align:top;
+    display:inline-block;
+    max-width: 500px;
+}
+
+#redirecionamentos{
+    margin-left: 4cm;
+    display: flex;
+}
+
+#logo{
+    margin-left: 1cm;
+    display: flex;
+}
+
+.cabeca{
+    background-color: #720000;
+}
+
+#capivara_da_sorte{
+    color: goldenrod;
+    font-family: "Poppins", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    text-decoration: none;
+}
+
+#entrada{
+    margin-left: 10cm;
+    margin-right: 1cm;
+}
+
+#Contatos{
+    margin-left: 2cm;
+}
+
+#Quem_somos{
+    margin-left: 10cm;
+    display: flex;
+    
+}
+
+#logo2 {
+    margin-left: 15cm;
+    margin-right: 5cm;
+}
+
+
+#rodape{
+    display: flex;
+    align-items: center;
+    background-color: #720000;
+}
+
+
+.name_jogo{
+    color: goldenrod;
+    font-family: "Poppins", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 35px;
+}
+
+.botao{
+    background-color: azure;
+    color: rgb(20, 20, 20);
+    font-size: 25px;
+}
+
+#contatos{
+
+    color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight:bolder
+}
+
+.instagram{
+
+    background-color: rgb(255, 0, 85);
+
+}
+
+.tiktok{
+
+    color: rgb(216, 215, 215);
+    font-family: "Poppins", sans-serif;
+    font-size: 25px;
+
+}
+
+.link_contatos{
+
+    color: snow;
+    font-family: "Quicksand", sans-serif;
+    font-style: italic;
+    font-size: 18px;
+
+}
+
+#quem_somos{
+
+    color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    font-weight:bolder
+}
+
+.nomes{
+
+    color: whitesmoke;
+    font-family: "Kalam", cursive;
+    font-size: 25px;
+    font-weight: lighter;
+
+}
+.cadastro{
+    margin-left: 50px;
+}
+
+.roleta {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  
+    .wheel img {
+      transition: transform 10s cubic-bezier(0.3, 1, 0.7, 1),
+        10s filter cubic-bezier(0.1, 1, 0.8, 1),
+        10s -webkit-filter cubic-bezier(0.1, 1, 0.8, 1);
+      will-change: transform;
+      border-radius: 50%;
+      box-shadow: 0 0 100px rgba(0, 0, 0, 0.5);
+      width: 100%;
+      max-width: 600px;
+      /* border:4px dashed rgba(255,255,255, .5); */
+    }
+
+
+    .seta {
+      width: 0;
+      height: 0;
+      border: 80px solid transparent;
+      border-top: 110px solid tomato;
+      position: fixed;
+      left: 50%;
+      transform: translate(-50%, -100px);
+      z-index: 20; 
+      border-radius: 0.35em;
+    }
+    
+    
+  }/*Roleta*/
+
+  /*Tabela*/
+  .tabela {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/*Cabeçalho*/
+.tabela th {
+    background-color: #4CAF50;
+    color: #fff; 
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+/*Celulas*/
+.tabela td {
+    background-color: #fff; 
+    color: #000;
+    border: 1px solid #dddddd;
+    padding: 8px;
+    text-align: left;
+}
+
+  .spin {
+    cursor: crosshair;
+  }/*girar*/
